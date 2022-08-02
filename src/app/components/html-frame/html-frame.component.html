@@ -1,0 +1,8 @@
+<!-- html-frame.component.html -->
+
+<body class="body">
+    <div class="frame">
+        <app-display (outputMessage)="ResultHandler($event)" [input]="message"></app-display>
+        <app-input (outputMessage)="ResultHandler($event)"></app-input>
+    </div>
+</body>

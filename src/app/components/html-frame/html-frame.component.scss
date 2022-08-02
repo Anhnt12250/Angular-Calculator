@@ -1,0 +1,16 @@
+//html-frame.component.scss
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #97D9E1;
+}
+
+.frame {
+    font-size: 24px;
+    background-color: white;
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 40px 20px 20px 20px;
+}

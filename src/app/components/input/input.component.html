@@ -1,0 +1,32 @@
+<!-- input.component.html -->
+
+<div class="functionbox">
+    <div class="rowone">
+        <button class="seven" id="seven" (click)="addResult('7')">7</button>
+        <button class="eight" id="eight" (click)="addResult('8')">8</button>
+        <button class="nine" id="nine" (click)="addResult('9')">9</button>
+        <button class="operator" id="divide" (click)="addResult('/')"> ÷</button>
+    </div>
+    <!-- end row one -->
+    <div class="rowtwo">
+        <button class="four" id="four" (click)="addResult('4')">4</button>
+        <button class="five" id="five" (click)="addResult('5')">5</button>
+        <button class="six" id="six" (click)="addResult('6')">6</button>
+        <button class="operator" id="multiply" (click)="addResult('*')">x</button>
+    </div>
+    <!-- end row two -->
+    <div class="rowthree">
+        <button class="one" id="one" (click)="addResult('1')">1</button>
+        <button class="two" id="two" (click)="addResult('2')">2</button>
+        <button class="three" id="three" (click)="addResult('3')">3</button>
+        <button class="operator" id="subtract" (click)="addResult('-')">-</button>
+    </div>
+    <!-- end row three -->
+    <div class="rowfour">
+        <button class="zero" id="zero" (click)="addResult('0')">0</button>
+        <button class="operator" id="decimal" (click)="addResult('.')">.</button>
+        <button class="operator" id="equals" (click)="addResult('=')">=</button>
+        <button class="operator" id="add" (click)="addResult('+')">+</button>
+    </div>
+    <!-- end row five -->
+</div>
